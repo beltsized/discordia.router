@@ -17,7 +17,7 @@ client:once('ready', function()
         -- reply to the interaction
         router:reply(i, {
             type = 4,
-            data = {content = 'test'}
+            data = {content = 'Hello, world!'}
         })
     end)
 
